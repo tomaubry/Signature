@@ -1,0 +1,11 @@
+%name%
+%title%
+%service%
+
+Tel : %pager%
+Mob : %mobile%
+Mail : %mail%
+
+%FullAddress%
+
+www.vendee-expansion.fr
