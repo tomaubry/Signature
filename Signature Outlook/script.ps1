@@ -1,5 +1,5 @@
 $localpath= get-content env:APPDATA # definition du répertoire local dans lequel doivent être crées les signatures
-$remotepath='Y:\03. Transferts\Tom Aubry\Signature Outlook\Template' # path pour accéder au partage qui contient les sources html et les images
+$remotepath='.\Template' # path pour accéder au partage qui contient les sources html et les images
 
 robocopy /e /r:3 /w:1 $remotepath $localpath\Microsoft\Signatures
 
